@@ -1,0 +1,26 @@
+[15:12:17] INFO     root                 │ Logger initialised – log file: reports/logs\test_run_20260527_151217.log
+[15:12:17] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[15:12:17] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[15:12:48] INFO     TestSuite            │ ============================================================
+[15:12:48] INFO     TestSuite            │ SCENARIO TC001: Search for shoes under $220 and validate cart
+[15:12:48] INFO     TestSuite            │ ============================================================
+[15:12:48] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:12:54] INFO     LoginPage            │ Clicking Sign-in link
+[15:12:58] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:13:37] ERROR    LoginPage            │ Login failed. Error: 
+[15:13:41] INFO     LoginPage            │ Screenshot saved: C:\Users\boris\AppData\Local\Temp\pytest-of-boris\pytest-6\test_full_shopping_flow_TC001_0\screenshots\login_failure_20260527_151337.png
+[15:13:48] INFO     TestSuite            │ ============================================================
+[15:13:48] INFO     TestSuite            │ SCENARIO TC002: Search for laptop under $500 and validate cart
+[15:13:48] INFO     TestSuite            │ ============================================================
+[15:13:48] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:13:53] INFO     LoginPage            │ Clicking Sign-in link
+[15:13:56] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:14:41] ERROR    LoginPage            │ Login failed. Error: 
+[15:15:02] INFO     LoginPage            │ Screenshot saved: C:\Users\boris\AppData\Local\Temp\pytest-of-boris\pytest-6\test_full_shopping_flow_TC002_0\screenshots\login_failure_20260527_151441.png
+[15:15:30] INFO     TestSuite            │ ============================================================
+[15:15:30] INFO     TestSuite            │ SCENARIO TC003: Search for headphones under $100 and validate cart
+[15:15:30] INFO     TestSuite            │ ============================================================
+[15:15:30] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:15:33] INFO     LoginPage            │ Clicking Sign-in link
+[15:15:36] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:16:15] INFO     TestSuite            │ ✅ Smoke test passed – eBay homepage loaded

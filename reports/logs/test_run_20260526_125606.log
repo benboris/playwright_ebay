@@ -1,0 +1,21 @@
+[12:56:06] INFO     root                 │ Logger initialised – log file: reports/logs\test_run_20260526_125606.log
+[12:56:06] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[12:56:06] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[12:56:32] INFO     TestSuite            │ ============================================================
+[12:56:32] INFO     TestSuite            │ SCENARIO TC001: Search for shoes under $220 and validate cart
+[12:56:32] INFO     TestSuite            │ ============================================================
+[12:56:32] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[12:56:40] INFO     LoginPage            │ Clicking Sign-in link
+[13:00:13] INFO     TestSuite            │ ============================================================
+[13:00:13] INFO     TestSuite            │ SCENARIO TC002: Search for laptop under $500 and validate cart
+[13:00:13] INFO     TestSuite            │ ============================================================
+[13:00:13] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[13:00:18] INFO     LoginPage            │ Clicking Sign-in link
+[13:00:24] INFO     LoginPage            │ Logging in as: test_user@example.com
+[13:01:01] INFO     TestSuite            │ ============================================================
+[13:01:01] INFO     TestSuite            │ SCENARIO TC003: Search for headphones under $100 and validate cart
+[13:01:01] INFO     TestSuite            │ ============================================================
+[13:01:01] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[13:01:11] INFO     LoginPage            │ Clicking Sign-in link
+[13:01:14] INFO     LoginPage            │ Logging in as: test_user@example.com
+[13:01:41] INFO     TestSuite            │ ✅ Smoke test passed – eBay homepage loaded

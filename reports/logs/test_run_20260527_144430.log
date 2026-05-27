@@ -1,0 +1,22 @@
+[14:44:30] INFO     root                 │ Logger initialised – log file: reports/logs\test_run_20260527_144430.log
+[14:44:30] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[14:44:30] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[14:45:50] INFO     TestSuite            │ ============================================================
+[14:45:50] INFO     TestSuite            │ SCENARIO TC001: Search for shoes under $220 and validate cart
+[14:45:50] INFO     TestSuite            │ ============================================================
+[14:45:50] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[14:45:56] INFO     LoginPage            │ Clicking Sign-in link
+[14:45:59] INFO     LoginPage            │ Logging in as: test_user@example.com
+[14:46:50] INFO     TestSuite            │ ============================================================
+[14:46:50] INFO     TestSuite            │ SCENARIO TC002: Search for laptop under $500 and validate cart
+[14:46:50] INFO     TestSuite            │ ============================================================
+[14:46:50] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[14:46:59] INFO     LoginPage            │ Clicking Sign-in link
+[14:47:01] INFO     LoginPage            │ Logging in as: test_user@example.com
+[14:47:26] INFO     TestSuite            │ ============================================================
+[14:47:26] INFO     TestSuite            │ SCENARIO TC003: Search for headphones under $100 and validate cart
+[14:47:26] INFO     TestSuite            │ ============================================================
+[14:47:26] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[14:47:33] INFO     LoginPage            │ Clicking Sign-in link
+[14:47:37] INFO     LoginPage            │ Logging in as: test_user@example.com
+[14:48:02] INFO     TestSuite            │ ✅ Smoke test passed – eBay homepage loaded

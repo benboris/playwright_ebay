@@ -1,0 +1,1 @@
+[15:28:40] [32mINFO    [0m TestSuite | ✅ Smoke test passed – eBay homepage loaded

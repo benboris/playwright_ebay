@@ -1,0 +1,26 @@
+[15:20:10] INFO     root                 │ Logger initialised – log file: reports/logs\test_run_20260527_152010.log
+[15:20:10] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[15:20:10] INFO     DataLoader           │ Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[15:20:13] INFO     TestSuite            │ ============================================================
+[15:20:13] INFO     TestSuite            │ SCENARIO TC001: Search for shoes under $220 and validate cart
+[15:20:13] INFO     TestSuite            │ ============================================================
+[15:20:13] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:20:16] INFO     LoginPage            │ Clicking Sign-in link
+[15:20:18] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:20:36] ERROR    LoginPage            │ Login failed. Error: 
+[15:25:21] INFO     TestSuite            │ ============================================================
+[15:25:21] INFO     TestSuite            │ SCENARIO TC002: Search for laptop under $500 and validate cart
+[15:25:21] INFO     TestSuite            │ ============================================================
+[15:25:21] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:25:24] INFO     LoginPage            │ Clicking Sign-in link
+[15:25:28] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:25:52] ERROR    LoginPage            │ Login failed. Error: 
+[15:26:37] INFO     LoginPage            │ Screenshot saved: C:\Users\boris\AppData\Local\Temp\pytest-of-boris\pytest-7\test_full_shopping_flow_TC002_0\screenshots\login_failure_20260527_152552.png
+[15:27:10] INFO     TestSuite            │ ============================================================
+[15:27:10] INFO     TestSuite            │ SCENARIO TC003: Search for headphones under $100 and validate cart
+[15:27:10] INFO     TestSuite            │ ============================================================
+[15:27:10] INFO     LoginPage            │ Navigating to: https://www.ebay.com
+[15:27:16] INFO     LoginPage            │ Clicking Sign-in link
+[15:27:18] INFO     LoginPage            │ Logging in as: boris.kndl@gmail.com
+[15:27:39] ERROR    LoginPage            │ Login failed. Error: 
+[15:28:40] INFO     TestSuite            │ ✅ Smoke test passed – eBay homepage loaded

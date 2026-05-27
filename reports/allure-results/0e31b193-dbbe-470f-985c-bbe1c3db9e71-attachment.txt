@@ -1,0 +1,8 @@
+[15:20:10] [32mINFO    [0m DataLoader | Test data loaded from: C:\Python_projects\ebay_automation\ebay_automation\tests\../data/test_data.json
+[15:20:13] [32mINFO    [0m TestSuite | ============================================================
+[15:20:13] [32mINFO    [0m TestSuite | SCENARIO TC001: Search for shoes under $220 and validate cart
+[15:20:13] [32mINFO    [0m TestSuite | ============================================================
+[15:20:13] [32mINFO    [0m LoginPage | Navigating to: https://www.ebay.com
+[15:20:16] [32mINFO    [0m LoginPage | Clicking Sign-in link
+[15:20:18] [32mINFO    [0m LoginPage | Logging in as: boris.kndl@gmail.com
+[15:20:36] [31m[1mERROR   [0m LoginPage | Login failed. Error:

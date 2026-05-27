@@ -1,0 +1,7 @@
+[15:27:10] [32mINFO    [0m TestSuite | ============================================================
+[15:27:10] [32mINFO    [0m TestSuite | SCENARIO TC003: Search for headphones under $100 and validate cart
+[15:27:10] [32mINFO    [0m TestSuite | ============================================================
+[15:27:10] [32mINFO    [0m LoginPage | Navigating to: https://www.ebay.com
+[15:27:16] [32mINFO    [0m LoginPage | Clicking Sign-in link
+[15:27:18] [32mINFO    [0m LoginPage | Logging in as: boris.kndl@gmail.com
+[15:27:39] [31m[1mERROR   [0m LoginPage | Login failed. Error:

@@ -1,0 +1,8 @@
+[15:25:21] [32mINFO    [0m TestSuite | ============================================================
+[15:25:21] [32mINFO    [0m TestSuite | SCENARIO TC002: Search for laptop under $500 and validate cart
+[15:25:21] [32mINFO    [0m TestSuite | ============================================================
+[15:25:21] [32mINFO    [0m LoginPage | Navigating to: https://www.ebay.com
+[15:25:24] [32mINFO    [0m LoginPage | Clicking Sign-in link
+[15:25:28] [32mINFO    [0m LoginPage | Logging in as: boris.kndl@gmail.com
+[15:25:52] [31m[1mERROR   [0m LoginPage | Login failed. Error: 
+[15:26:37] [32mINFO    [0m LoginPage | Screenshot saved: C:\Users\boris\AppData\Local\Temp\pytest-of-boris\pytest-7\test_full_shopping_flow_TC002_0\screenshots\login_failure_20260527_152552.png

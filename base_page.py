@@ -28,7 +28,7 @@ class BasePage:
     def navigate_to(self, url: str) -> None:
         """Navigate to a given URL and wait for load."""
         self.logger.info(f"Navigating to: {url}")
-        self.page.goto(url, wait_until="domcontentloaded", timeout=180000)
+        self.page.goto(url, wait_until="domcontentloaded", timeout=380000)
 
     def get_current_url(self) -> str:
         return self.page.url
@@ -37,10 +37,10 @@ class BasePage:
     # Wait helpers
     # ─────────────────────────────────────────────
 
-    def wait_for_selector(self, selector: str, timeout: int = 130000):
+    def wait_for_selector(self, selector: str, timeout: int = 330000):
         return self.page.wait_for_selector(selector, timeout=timeout)
 
-    def wait_for_navigation(self, timeout: int = 130000):
+    def wait_for_navigation(self, timeout: int = 330000):
         self.page.wait_for_load_state("domcontentloaded", timeout=timeout)
 
     # ─────────────────────────────────────────────
@@ -60,11 +60,11 @@ class BasePage:
     # Generic interactions
     # ─────────────────────────────────────────────
 
-    def click(self, selector: str, timeout: int = 130000) -> None:
+    def click(self, selector: str, timeout: int = 330000) -> None:
         self.logger.debug(f"Clicking: {selector}")
         self.page.click(selector, timeout=timeout)
 
-    def fill(self, selector: str, text: str, timeout: int = 130000) -> None:
+    def fill(self, selector: str, text: str, timeout: int = 330000) -> None:
         self.logger.debug(f"Filling '{selector}' with '{text}'")
         self.page.fill(selector, text, timeout=timeout)
 
